@@ -17,8 +17,7 @@
   "scripts": {
     "build": "tsc --project ./",
     "start": "node build/index.js",
-    "server":"npm run build && npm run start"
-
+    "server": "npm run build && npm run start"
   },
   "eslintConfig": {
     "extends": [
